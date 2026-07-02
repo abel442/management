@@ -1,10 +1,12 @@
      import React from 'react'
-     import  Login from './Login'
+     import  Login from './Component/Login.jsx';
+     import Sidebar from './Component/Sidebar.jsx';
      
      const App = () => {
        return (
          <div>
-              
+           <Sidebar />
+
 
            <Login />
 
